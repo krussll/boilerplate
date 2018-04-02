@@ -45,6 +45,10 @@ $jumbotron-font: #FFF;
   border-radius: 0rem;
 }
 
+.jumbotron h1, .jumbotron h2 {
+  color: $jumbotron-font;
+}
+
 .jumbotron.image {
   background-image: url("/boilerplate/images/milky-way-923801_1280.jpg");
   background-size: cover;
